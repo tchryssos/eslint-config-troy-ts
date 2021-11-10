@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-troy-ts",
+  "version": "1.0.0",
+  "description": "A typescript eslint config by Troy",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "author": "Troy Chryssos",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  }
+}
